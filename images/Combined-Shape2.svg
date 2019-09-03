@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="779px" height="679px" viewBox="0 0 779 679" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1033.07482,0 L1600,0 C1600,225.628278 1600,679 1600,679 C1578.67822,623.235438 1543.7962,583.692995 1512.70515,556.932838 C1355.42557,421.561836 1163.49852,521.084823 1008.87437,510.041718 C791.126198,494.490356 761.677348,195.701208 925.644716,110.102046 C988.498747,77.2891 1014.41158,37.9753201 1033.07482,1.13686838e-13 Z" id="path-1"></path>
+        <filter x="-3.0%" y="-3.4%" width="105.9%" height="106.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="13" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="20" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.928158347   0 0 0 0 0.940451485   0 0 0 0 0.97118433  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.800000012">
+        <g id="all-projects" transform="translate(-821.000000, 0.000000)">
+            <g id="Combined-Shape">
+                <use fill="#F8FAFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

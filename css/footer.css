@@ -1,0 +1,447 @@
+#main-footer{
+	position: relative;
+} 
+ #main-footer:after{
+	position: absolute;
+	z-index: -2;
+	bottom: 50px;
+	width: 100%;
+	height: 1200px;
+	background: url(../images/footer.svg) no-repeat right bottom;
+	background-size: 60% auto;
+	content: "";
+}
+div#footer-bottom {
+    display: none;
+}
+p.design-lab img {
+    width: 33px;
+    vertical-align: middle;
+}
+
+#footer-widgets {
+	display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#footer-widgets > div{
+	margin-bottom: 15px !important;
+}
+#footer-widgets .widget_nav_menu{
+	width: 100%;
+}
+.widget_nav_menu .menu {
+	float: right;
+}
+.widget_nav_menu .menu li{
+	padding-left: 0 !important;
+    float: left;
+}
+.widget_nav_menu .menu li:last-child{
+	margin-right: 0;
+}
+.widget_nav_menu .menu li:before{
+	display: none;
+}
+.widget_nav_menu .menu li a{
+	text-transform: uppercase;
+	font-size: 15px;
+}
+footer#main-footer .footer-widget {
+	width: 68%;
+	margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+footer#main-footer .footer-widget:first-child {
+    width: 100%;
+    margin-right: 0 !important;
+}
+footer#main-footer .footer-widget:nth-child(2) {
+    width: 32% !important;
+}
+footer#main-footer .footer-widget:last-child{
+	margin-right: 0 !important;
+    width: 0 !important;
+}
+footer#main-footer h4.title {
+    font-size: 50px;
+}
+p.sub-newsltr-txt a {
+    color: #3b5aed!important;
+    font-size: 28px;
+    font-family: heading-font;
+    font-weight: bold;
+}
+footer#main-footer .news-letter-box .et_pb_section {
+    padding: 0;
+    background: transparent;
+}
+footer#main-footer .news-letter-box .et_pb_section > div{
+	padding: 0;
+	width: 100% !important;
+}
+footer#main-footer .news-letter-box .et_pb_section > div > div{
+	width: 100%;
+}
+footer#main-footer .news-letter-box .et_pb_section .et_pb_subscribe{
+	background: transparent !important;
+	display: block;
+	padding: 0;
+}
+footer#main-footer .news-letter-box .et_pb_section .et_pb_newsletter_form{
+	width: 100% !important;
+	padding: 0;
+	margin-top: 20px;
+}
+footer#main-footer .et_pb_newsletter .et_pb_newsletter_fields{
+	display: block;
+}
+footer#main-footer  p.et_pb_newsletter_field {
+    width: calc(100% - 265px);
+    float: left;
+}
+footer#main-footer  p.et_pb_newsletter_field .input{
+	background: #fff;
+    box-shadow: 0 14px 44px 0 rgba(44,51,66,0.06);
+    border-radius: 30px;
+    padding: 15px 20px !important;
+    color: #59647E;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    opacity: 0.7;
+    height: 60px;
+    width: 420px;
+}
+footer#main-footer a.et_pb_newsletter_button.et_pb_button {
+    background: #da1d5f;
+    border-radius: 30px;
+    padding: 12px 20px !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    box-shadow: 0 6px 24px 0 rgba(190,0,66,0.38);
+    border: 0 !important;
+    font-weight: 900;
+    max-width: 210px;
+    height: 60px;
+    float: left;
+    line-height: 2!important;
+}
+footer#main-footer .widget_media_image{
+	margin-top: 10px;
+}
+a.et_pb_newsletter_button.et_pb_button:after {
+	display: none;
+}
+ul.social-feed {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+ul.social-feed li:before{
+	display: none;
+}
+ul.social-feed li{
+	padding: 0 !important;
+}
+#main-footer {
+    padding-top: 200px;
+    padding-bottom: 15px;
+}
+
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.foter-smll-text{
+    font-size: 14px;
+}
+.foter-smll-text br {
+    display: none;
+}
+span.design-lab img {
+    width: 18px;
+}
+span.design-lab + span.design-lab{
+    margin-left: 30px;
+}
+.pad-left {
+    padding-left: 65px;
+}
+.foter-smll-text.text-right{
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    justify-content: flex-end;
+}
+#main-footer ul#menu-menu li {
+    margin-left: 38px;
+}
+.et_pb_gutters3.et_pb_footer_columns4 #main-footer .footer-widget .fwidget {
+    margin-bottom: 0 !important;
+}
+.et_pb_gutters3.et_pb_footer_columns4 footer#main-footer .footer-widget:first-child .widget_text{
+    width: 58%;
+    margin-bottom: 160px !important;
+}
+#main-footer .footer-widget:nth-child(3) .fwidget.et_pb_widget.widget_text {
+    width: 100% !important;
+    min-width: 100%;
+}
+#main-footer ul#menu-menu li.wpml-ls-current-language{
+    display: none;
+}
+div#text-6 {
+    margin-top: -14px;
+}
+footer#main-footer .widget_media_image {
+    margin-top: -5px;
+    max-width: 200px;
+}
+#footer-widgets .footer-widget a:hover,
+#footer-widgets .footer-widget li a:hover,
+#footer-widgets .footer-widget li a:hover {
+    color: #3c5a9a;
+    opacity: 0.8;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: -5%;
+    top: 5%;
+    
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    
+    left: 5%;
+    top: 80%;
+    
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 10%;
+    top: 40%;
+    
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    
+    left: 20%;
+    top: 0;
+    
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    
+    left: 30%;
+    top: 50%;
+    
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 50%;
+    top: 0;
+    
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 65%;
+    top: 70%;
+    
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    
+    left: 80%;
+    top: 10%;
+    
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    
+    left: 90%;
+    top: 50%;
+    
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    
+    left: 80%;
+    top: 80%;
+    
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgb(108, 158, 234);
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    
+    content: "";
+    height: 90px;
+    left: 10px;
+    position: absolute;
+    width: 90px;
+}
